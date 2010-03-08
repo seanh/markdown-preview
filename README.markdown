@@ -6,9 +6,8 @@ wrapped in the HTML template at `~/.markdown-preview-template.html`,
 `%m` in the template will will be replaced with markdown's output.
 
 The markdown and web browser commands, the directory used for the output
-files, and the HTML template that the HTML-snippet from markdown is
-wrapped in can be configured by editing the constants at the top of the
-python file.
+files, and the HTML template can be configured by editing the constants
+at the top of the python file.
 
 Dependencies:
 
