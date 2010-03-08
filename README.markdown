@@ -11,6 +11,6 @@ at the top of the python file.
 
 Dependencies:
 
-xclip -- for getting the primary X selection.
+xclip -- for getting the primary X selection.  
 some version of markdown -- for doing the text-to-html conversion.
 
