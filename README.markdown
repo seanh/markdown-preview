@@ -5,6 +5,10 @@ then the temporary file is opened in your browser.  Markdown's output is
 wrapped in the HTML template at `~/.markdown-preview-template.html`,
 `%m` in the template will will be replaced with markdown's output.
 
+Bind `markdown-preview` to a keyboard shortcut to get one-click preview
+of markdown text. Simply select the text you want to preview in your
+editor and hit your keyboard shortcut!
+
 The markdown and web browser commands, the directory used for the output
 files, and the HTML template can be configured by editing the constants
 at the top of the python file.
