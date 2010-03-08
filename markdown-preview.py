@@ -13,6 +13,8 @@ TODO:
 *   Safer file and exception handling
 *   Use the tempfile module for output files?
 *   Report non-zero exit status and output of commands
+*   Support a config file and/or environment variables for the options.
+    Look for the $BROWSER environment variable?
 
 """
 import sys,os,commands
