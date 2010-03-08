@@ -2,19 +2,11 @@
 """markdown-preview.py: quick, temporary HTML preview of markdown text
 in your browser.
 
-`markdown-preview` reads text from the primary X selection,
-`markdown-preview filename` reads text from a file.
-The text is passed through markdown, markdown's HTML output is written to a
-temporary file, then the temporary file is opened in your browser.
+Usage:
 
-Dependencies:
+markdown-preview -- reads text from the primary X selection
 
-xclip -- for getting the primary X selection.
-some version of markdown -- for doing the text-to-html conversion.
-
-The markdown and web browser commands, the directory used for the output
-files, and the HTML template that the HTML-snippet from markdown is
-wrapped in can be configured by editing the constants below.
+markdown-preview filename -- reads text from a file
 
 TODO:
 
